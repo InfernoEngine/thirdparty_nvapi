@@ -10,10 +10,11 @@
 		<ThirdParty>true</ThirdParty>
 		<ExportedIncludeDirectory>include</ExportedIncludeDirectory>
 		
+		<Frozen>true</Frozen>
 		<FilterPlatform include="windows">
-			<ThirdPartyLibraryFiles>
+			<FrozenLibraryFiles>
 				lib\nvapi64.lib
-			</ThirdPartyLibraryFiles>
+			</FrozenLibraryFiles>
 		</FilterPlatform>
 
 	</StaticLibrary>
