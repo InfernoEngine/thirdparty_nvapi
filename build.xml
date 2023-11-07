@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_nvapi</Name>
+		<SourceRoot>.</SourceRoot>
+		<ThirdParty>true</ThirdParty>
+		<ExportedIncludeDirectory>include</ExportedIncludeDirectory>
+		
+		<FilterPlatform include="windows">
+			<ThirdPartyLibraryFiles>
+				lib\nvapi64.lib
+			</ThirdPartyLibraryFiles>
+		</FilterPlatform>
+
+	</StaticLibrary>
+
+</Module>
